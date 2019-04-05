@@ -1,0 +1,22 @@
+commit 85f3b493d78ba936d15206f42ec9c8d6c89fa70e
+tree 2a22a83c44e5439b63e78dcb4a6e1c37bbc3ebe6
+parent cc32a89c20274b54e08c9925fbc593a5b413419e
+author hht2309 <hht2309@gmail.com> 2019-01-03 10:51:34 +0100
+committer hht2309 <hht2309@gmail.com> 2019-01-03 10:51:34 +0100
+
+    fix syntax error in Jenkinsfile
+
+
+
+:100644 100644 c39b230b222518f3bea5d3a95f0ce8369901e21f 89c3f73a358cb098eac35e7bcfe6f63bfc4ba6f8 M	Jenkinsfile
+commit cc32a89c20274b54e08c9925fbc593a5b413419e
+tree 141f05d7f3ac28e73bebd8067f8786b5f96678f2
+parent fac9744fd6fd2f21fcf4b93fc3392d6fc88ba4c0
+author hht2309 <hht2309@gmail.com> 2019-01-03 10:48:22 +0100
+committer hht2309 <hht2309@gmail.com> 2019-01-03 10:48:22 +0100
+
+    add deploy stage to Jenkinsfile
+
+
+
+:100644 100644 e4d0ad066e1badcbdc9dca5a02c41fec59b1cd2e c39b230b222518f3bea5d3a95f0ce8369901e21f M	Jenkinsfile

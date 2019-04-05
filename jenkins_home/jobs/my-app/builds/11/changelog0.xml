@@ -1,0 +1,19 @@
+commit 3b3ae0ca2ee7750c07f17c4e7b0e56077dd9c228
+tree 645cdb7a1e1ed1581296b5f5021c705fc8c9dcb1
+parent 9eb1b4ecc0e0c8b34429c5231cb263cfdc92108c
+author hht2309 <hht2309@gmail.com> 2019-02-27 16:45:11 +0100
+committer hht2309 <hht2309@gmail.com> 2019-02-27 16:45:11 +0100
+
+    add more test
+
+
+
+:100755 100755 3a6b46dd2a5bf143e16ee7a383cdc791d2517ca3 6936ec946459182fb95ed41777237ee5a9cb1804 M	.idea/workspace.xml
+:100755 100755 8b61a8039e4458acdca58cceea683d670d5dcc39 5fa77b0004da1deeb72ad5f777f759f78f9749e3 M	Jenkinsfile
+:100644 100755 f237f0fe7e7ac827fbfe479e555a470e2b6e789e 1ac1303b6aa02a7d4aac5707ece723262c63ab5c M	pom.xml
+:100644 100755 3355990039875d2dd8f0dbf7bed635d95ace0ffa da0786ef00f4064a87f785c4451911ce33ab81c8 M	src/test/java/com/mycompany/app/AppTest.java
+:100644 100644 81bbaae5f829bf78d007e25c3c36bf60760a71d9 ed23688cf1e60813f86526eaa702280c41b9f708 M	target/maven-archiver/pom.properties
+:100644 100644 ca7b8cb16333ba4070b48d41c6b775a0a25fc4fa d2160521465f26adcf23dff65216ae71c254abc3 M	target/my-app-1.0-SNAPSHOT.jar
+:100644 100644 4c2457dbda650f4f9e136367ca52ebed65ad2e12 5d2ef45b8f98ed29a15620ea4cd34af19311065c M	target/surefire-reports/TEST-com.mycompany.app.AppTest.xml
+:100644 100644 e62c559a2c25b8d508ec7ef9e589f07a438e41cc a8fadbfdfacbcbde75a206eb06ccd32d2eebe1f9 M	target/surefire-reports/com.mycompany.app.AppTest.txt
+:100644 100644 1c380279aec75a586da9c44e82b66ec5f2b28284 27fac018a4674404de7da9df515f283adda19682 M	target/test-classes/com/mycompany/app/AppTest.class

@@ -1,0 +1,161 @@
+Started by user [8mha:////4B9L4XyUGZ5RAehrIBgeXYEBsuENlm5012aDgpw3OijTAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9jIwMQwBs13ChvwAAAA==[0mhhh1
+Replayed [8mha:////4CLZhBHJSDNzpmr9H53wEQ8Bw6+7Z7+jTs/y03t6SnNmAAAAuh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgYj/az8JP3i1MSi5Azd3NLizGRdIJGXrltckF+SmVapm1iQCVaSm1hcklqkb2SsDwA9Y+4V5wAAAA==[0m#23
+[8mha:////4K/Oj0SAqYzvXDQKHs3GMY6qRy2Mz3KhiTDx2+c94zIdAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSG8DZNFQDqHlNzjgAAAA==[0mConnecting to https://api.github.com using hht2309@gmail.com/******
+Obtained Jenkinsfile from 8a0d867047a8f0a3d37a2bcf4e6925ed8eb3d05b
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4NpqkGIsbM6O8PyJ1bsWMvc+nYaySaXiQusKDOZ0+hMhAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Co/8t2fEDYN3o8CKt8/3oK6tiafHYLZ1RYpAgAqpycvAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/h-music-using-spotify-api_master
+[8mha:////4BPJI/1KX2t94YWuOp7vy2mTY2+SqOzMt+TSmZwX2vENAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4DM73gKyN0dphA0eqSSIrFq/nFo3VQTH8VrbP/UBsV//AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4CpB68ufD1IUnY2ysQ5STZFYhV4erQtb8jWj6f2QBOJFAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Checkout)
+[8mha:////4I/nT4dIkp1hJmgXdwHYSJVqS1dXFx3hYbdzV8DDB4AEAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/hht2309/search-music-on-spotify.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/hht2309/search-music-on-spotify.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --progress https://github.com/hht2309/search-music-on-spotify.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 8a0d867047a8f0a3d37a2bcf4e6925ed8eb3d05b (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8a0d867047a8f0a3d37a2bcf4e6925ed8eb3d05b
+Commit message: "test"
+ > git rev-list --no-walk 8a0d867047a8f0a3d37a2bcf4e6925ed8eb3d05b # timeout=10
+[8mha:////4IwLXEh4QHWQMFC5L7GnNrPIq9p9ynsQCL9s3K+vgywmAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4J04yJmrTwjoKgF7QYapDTrJ7I/yGsWsV+LB73cdTzosAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4PZ0SUPmBKH7+fbs3JAe4DZ2Yytvzt6FGBXG1HGojNsxAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4PBK7O5afEv0J5vTfEfOZ6X2b3TAOGNwiXlfZW7H+/G9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Environment)
+[8mha:////4NcnX6wfH7V4zVSLqgFQW++/kWZjEcgTjaqVWZkiiFNuAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ git --version
+git version 2.18.1
+[8mha:////4ML2omfJhX9x9Ov4DtfgbvqMiRoWyMAvLnZnRSOe0/UxAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] echo
+Branch: master
+[8mha:////4IUCzrYBsUqL9+z8XHy1Yr2+iL0dXM/5D4yXFfMXXLy9AAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/ASOlMWO+AAAA[0m[Pipeline] sh
++ docker -v
+Docker version 18.06.1-ce, build d72f525745
+[8mha:////4HWx96BApMS59Lcg0kuhv+1O5vrUfd98N3sw/tyqpxqXAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyKawcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMPsEddt+au/fYpQqer4AAAA=[0m[Pipeline] sh
++ printenv
+JENKINS_HOME=/var/jenkins_home
+JENKINS_UC_EXPERIMENTAL=https://updates.jenkins.io/experimental
+JAVA_ALPINE_VERSION=8.181.13-r0
+RUN_CHANGES_DISPLAY_URL=http://192.168.56.101:8080/job/search-music-using-spotify-api/job/master/24/display/redirect?page=changes
+HOSTNAME=0f8d396c07e3
+LD_LIBRARY_PATH=/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64
+NODE_LABELS=master
+HUDSON_URL=http://192.168.56.101:8080/
+SHLVL=2
+HOME=/root
+BUILD_URL=http://192.168.56.101:8080/job/search-music-using-spotify-api/job/master/24/
+HUDSON_COOKIE=a4cc79f0-131f-4ab0-a7db-b13cff8fa29d
+JENKINS_SERVER_COOKIE=durable-16d7fbdc8ecb30c22cc6016ac83c0fa2
+JENKINS_UC=https://updates.jenkins.io
+WORKSPACE=/var/jenkins_home/workspace/h-music-using-spotify-api_master
+JAVA_VERSION=8u181
+NODE_NAME=master
+STAGE_NAME=Environment
+EXECUTOR_NUMBER=1
+JENKINS_VERSION=2.150.1
+JENKINS_INCREMENTALS_REPO_MIRROR=https://repo.jenkins-ci.org/incrementals
+BUILD_DISPLAY_NAME=#24
+HUDSON_HOME=/var/jenkins_home
+JOB_BASE_NAME=master
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/jvm/java-1.8-openjdk/jre/bin:/usr/lib/jvm/java-1.8-openjdk/bin
+BUILD_ID=24
+BUILD_TAG=jenkins-search-music-using-spotify-api-master-24
+LANG=C.UTF-8
+JENKINS_URL=http://192.168.56.101:8080/
+JOB_URL=http://192.168.56.101:8080/job/search-music-using-spotify-api/job/master/
+BUILD_NUMBER=24
+JENKINS_NODE_COOKIE=d12832e3-fafc-45e3-b624-4bf5763138a0
+RUN_DISPLAY_URL=http://192.168.56.101:8080/job/search-music-using-spotify-api/job/master/24/display/redirect
+JENKINS_SLAVE_AGENT_PORT=50000
+HUDSON_SERVER_COOKIE=308a53c18a20f6f0
+JOB_DISPLAY_URL=http://192.168.56.101:8080/job/search-music-using-spotify-api/job/master/display/redirect
+JOB_NAME=search-music-using-spotify-api/master
+COPY_REFERENCE_FILE_LOG=/var/jenkins_home/copy_reference_file.log
+JAVA_HOME=/usr/lib/jvm/java-1.8-openjdk
+PWD=/var/jenkins_home/workspace/h-music-using-spotify-api_master
+BRANCH_NAME=master
+[8mha:////4GndfCbeC2Yh/t4Mo3RhC0btup385a3xlQ0IrgH/bfNTAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyaWwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfMnS0t74AAAA=[0m[Pipeline] }
+[8mha:////4NzXxtYQEeOxPU8UiR4roXNou9sxUJHcKsarTO9EL8zBAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BgGX7wu+AAAA[0m[Pipeline] // stage
+[8mha:////4JUlXc3n+vZ9hXdykXTzfxQhJe7LyPUIhIDOAt2o+y/fAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJAokREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lG9tmeb3BAAAA[0m[Pipeline] stage
+[8mha:////4LmQ31nN2tGgPlwsMYA0qUGCyQ91OpJseen285re8ah3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (Clean up)
+[8mha:////4E/fJCYARctvVYvzxjHqn17QjlneX4c6sNTrFzB7yPVCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] echo
+test_var = mystring
+[8mha:////4GDXA7wzVVNTkQhDfXn6Hh68nKC0yYOnHDvVtZdDlBprAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] sh
++ docker rmi -f localhost:5000/search-music-spotify:latest
+Untagged: localhost:5000/search-music-spotify:latest
+Untagged: localhost:5000/search-music-spotify@sha256:1a95986db0ece22aa63f3cb12f3222b9e6701cdbe057a84667933f4398e975e4
+Deleted: sha256:5367808a5a835e3c65c4c2a1786fcf359d51c7ce7bed92e793cba6c297214cd6
+Deleted: sha256:7dab634b55b507a5074e955424629481e9f452f8291eb816f6d594f8726623e2
+Deleted: sha256:b630f36fc5364f9227a1bcb911f48ecaa00d6b014d0a7221224c99dd3689f1dc
+Deleted: sha256:d66c20d1d633012362908eb47f30c69c9da3b9d6b94d69f6c7711d3a127a7776
+Deleted: sha256:404e0033d6c9be53b8e70c3196a29dc6a8e1958dae66c235153c015765834c7e
+Deleted: sha256:89f003b9d9e6bb528d62fa0c739f5d52cd64c66e2b66baa34b41f1e45f4a67ad
+Deleted: sha256:ae574573519a678d01eac7fa83cf1aae89caba41fe407c47f947384da985cf8d
+Deleted: sha256:e2983004db4a0c247a37f480ac7df41b80cb9331703f089ec07e9318dff0c045
+Deleted: sha256:fb525b4332d6de8da142d40596a9c7884c09227ebc9054769863da1595bb85c5
+[8mha:////4Nyuq8rVoA3dWd7WawXW57YIKOfVKDgua0mthjqcYepHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPoukFhO+AAAA[0m[Pipeline] }
+[8mha:////4FiIAyKgg8m0vyTaT6/0yiN/tPDvpxvVpbZohC3tj//nAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+4R02vvgAAAA==[0m[Pipeline] // stage
+[8mha:////4I4XkGNXEv/5gK5bIvutgTR08XVrwz3s+JjHxomYt3RCAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjoXSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INPbxT+8EAAAA=[0m[Pipeline] stage
+[8mha:////4JEIBz3eH9qcDi3YG28p1KPIk5AgYdc37956F7QiUk16AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] { (Build)
+[8mha:////4ETDiq/55qO5vFWRyAXcMs4EahqmVWlK4EEilSXuEPCZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] sh
++ docker build -t search-music-spotify --no-cache .
+Sending build context to Docker daemon  375.8kB
+Step 1/17 : FROM node:carbon
+ ---> 62ba2b48bf28
+Step 2/17 : RUN apt-get update
+ ---> Running in 833b14b3128f
+Ign:1 http://deb.debian.org/debian stretch InRelease
+Get:2 http://deb.debian.org/debian stretch-updates InRelease [91.0 kB]
+Get:3 http://security.debian.org/debian-security stretch/updates InRelease [94.3 kB]
+Get:4 http://deb.debian.org/debian stretch Release [118 kB]
+Get:5 http://deb.debian.org/debian stretch Release.gpg [2434 B]
+Get:6 http://security.debian.org/debian-security stretch/updates/main amd64 Packages [464 kB]
+Get:7 http://deb.debian.org/debian stretch-updates/main amd64 Packages [5152 B]
+Get:8 http://deb.debian.org/debian stretch/main amd64 Packages [7089 kB]
+Fetched 7864 kB in 2s (2678 kB/s)
+Reading package lists...
+Removing intermediate container 833b14b3128f
+ ---> a3be026ac145
+Step 3/17 : RUN apt-get upgrade -y
+ ---> Running in 5b59561a3cf9
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages will be upgraded:
+  tzdata
+1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 273 kB of archives.
+After this operation, 12.3 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian stretch-updates/main amd64 tzdata all 2018i-0+deb9u1 [273 kB]
+[91mdebconf: delaying package configuration, since apt-utils is not installed
+[0mFetched 273 kB in 0s (1865 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29940 files and directories currently installed.)
+Preparing to unpack .../tzdata_2018i-0+deb9u1_all.deb ...
+Unpacking tzdata (2018i-0+deb9u1) over (2018g-0+deb9u1) ...
+Setting up tzdata (2018i-0+deb9u1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+
+Current default time zone: 'Etc/UTC'
+Local time is now:      Thu Jan  3 12:35:52 UTC 2019.
+Universal Time is now:  Thu Jan  3 12:35:52 UTC 2019.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Aborted by [8mha:////4B9L4XyUGZ5RAehrIBgeXYEBsuENlm5012aDgpw3OijTAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9jIwMQwBs13ChvwAAAA==[0mhhh1
+Sending interrupt signal to process
+Terminated
+script returned exit code 143
+[8mha:////4DNX5KnTSPQGxWw6tBSAbDHZZJmpNqaDMGVnXh/ULhjnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3QKkBhvgAAAA==[0m[Pipeline] }
+[8mha:////4JZ9zVA9EjOwaAcTKKINodiqTryAG5Jgi269PWMFU+QlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2TqBHnvgAAAA==[0m[Pipeline] // stage
+[8mha:////4OA+u9bzeY+U0zrJs0WokWVN7pHZzf2DUoSALyk5JhsdAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREA1CVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AFo7wVm9AAAA[0m[Pipeline] }
+[8mha:////4Ps8w98ssI1vsL2vgp3LoapgBJ4LuM/bdYjATlwsLi6tAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KYMBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk5V6QlR8tH+kBvQAAAA==[0m[Pipeline] // node
+[8mha:////4NItquv3GGhXJm9X2ZVXdqm21raaC+fcKVRFpZEEMDy6AAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny/VaQ7T4LBo5LvQAAAA==[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+Finished: ABORTED

@@ -1,0 +1,12 @@
+commit 4fe037f737e8bf2ab08502b2e6b28900da8fe5fd
+tree 864872a050fc6ded637a8679d371e6da0c2bc085
+parent 3b3ae0ca2ee7750c07f17c4e7b0e56077dd9c228
+author hht2309 <hht2309@gmail.com> 2019-02-27 16:57:49 +0100
+committer hht2309 <hht2309@gmail.com> 2019-02-27 16:57:49 +0100
+
+    add more tests
+
+
+
+:100755 100755 6936ec946459182fb95ed41777237ee5a9cb1804 672e16dcc244a61b665e474ab965999e1b6d2ee3 M	.idea/workspace.xml
+:100755 100755 da0786ef00f4064a87f785c4451911ce33ab81c8 fbef4b43223f005bef221c7db64e28191da9dfb9 M	src/test/java/com/mycompany/app/AppTest.java

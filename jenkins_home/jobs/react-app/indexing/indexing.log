@@ -1,0 +1,86 @@
+Started
+[Wed Jan 02 12:53:24 GMT 2019] Starting branch indexing...
+[8mha:////4HS6lyBc3zLcdJ2E/rxunGEm5Vwsq9Nvs0DjDQuSde54AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHQG3wKdUACF+/6TjgAAAA==[0mConnecting to https://api.github.com using hht2309@gmail.com/******
+Examining [8mha:////4F3Cp7iAn2sZ+lOQUE9kGA/efTWrsklb3mY176D+t1BcAAAApB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQLGFQySgpKSi20tdPzyzJKE0C6srVTy3LSM3LrNQvSk1MLtFNLCgAAI5oShmpAAAA[0mevheniy/react-app
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4JrmAcPQkN6zMlgsPsWzXhfQMPFsgNwhriFJtcebhM14AAAArR+LCAAAAAAAAP9djLENwjAQRY8gGIASsQI5KgpQKhqQIhomMOFkBxzbOl+iZA3WgIYhGIcdCErHa/5r/nt+YBIZFqa+RO/SwrvoLaX7LhDb0t2OXmidPV7ZPbwTSA4wteS0mBzGNVuBWX5VjUKrnMaTcOn0tmWY/+V2w/5iMDBKANrQy1RgZURC3CDqUkx97l8VUmPIlR0yqUKWKgQUJsJKRSH+AsM4zUi1AAAA[0mmaster
+
+  Getting remote pull requests...
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: master
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+    Checking pull request [8mha:////4LqMkOroE2Jk59gdf1GJKGpcxDSJwJ/9/oWgptIwh16jAAAAqx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgKmHQzigpKSi20tdPzyzJKE0C6srVTy3LSM3LrNQvSk1MLtFNLCjQLyjNydE3AgDHe+WxsAAAAA==[0m#2
+ERROR: [Wed Jan 02 12:53:26 GMT 2019] Could not fetch branches from source e40ac320-3d4f-48d5-9bb9-71c1e577661e
+java.io.FileNotFoundException: https://api.github.com/repos/evheniy/react-app/collaborators/jineeshjohn/permission
+	at com.squareup.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:243)
+	at com.squareup.okhttp.internal.huc.DelegatingHttpsURLConnection.getInputStream(DelegatingHttpsURLConnection.java:210)
+	at com.squareup.okhttp.internal.huc.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:25)
+	at org.kohsuke.github.Requester.parse(Requester.java:625)
+	at org.kohsuke.github.Requester.parse(Requester.java:607)
+	at org.kohsuke.github.Requester._to(Requester.java:285)
+Caused: org.kohsuke.github.GHFileNotFoundException: {"message":"Must have push access to view collaborator permission.","documentation_url":"https://developer.github.com/v3/repos/collaborators/#review-a-users-permission-level"}
+	at org.kohsuke.github.Requester.handleApiError(Requester.java:699)
+	at org.kohsuke.github.Requester._to(Requester.java:306)
+	at org.kohsuke.github.Requester.to(Requester.java:247)
+	at org.kohsuke.github.GHRepository.getPermission(GHRepository.java:529)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMSource$1.fetch(GitHubSCMSource.java:903)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMSourceRequest.getPermissions(GitHubSCMSourceRequest.java:474)
+	at org.jenkinsci.plugins.github_branch_source.ForkPullRequestDiscoveryTrait$TrustPermission.checkTrusted(ForkPullRequestDiscoveryTrait.java:340)
+	at org.jenkinsci.plugins.github_branch_source.ForkPullRequestDiscoveryTrait$TrustPermission.checkTrusted(ForkPullRequestDiscoveryTrait.java:323)
+	at jenkins.scm.api.trait.SCMHeadAuthority.isTrusted(SCMHeadAuthority.java:101)
+	at jenkins.scm.api.trait.SCMSourceRequest.isTrusted(SCMSourceRequest.java:215)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMSource$3.create(GitHubSCMSource.java:969)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMSource$3.create(GitHubSCMSource.java:963)
+	at jenkins.scm.api.trait.SCMSourceRequest.process(SCMSourceRequest.java:341)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMSource.retrieve(GitHubSCMSource.java:959)
+	at jenkins.scm.api.SCMSource._retrieve(SCMSource.java:374)
+	at jenkins.scm.api.SCMSource.fetch(SCMSource.java:284)
+	at jenkins.branch.MultiBranchProject.computeChildren(MultiBranchProject.java:634)
+	at com.cloudbees.hudson.plugins.folder.computed.ComputedFolder.updateChildren(ComputedFolder.java:277)
+	at com.cloudbees.hudson.plugins.folder.computed.FolderComputation.run(FolderComputation.java:165)
+	at jenkins.branch.MultiBranchProject$BranchIndexing.run(MultiBranchProject.java:1025)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+[Wed Jan 02 12:53:26 GMT 2019] Finished branch indexing. Indexing took 2.1 sec
+FATAL: Failed to recompute children of react-app
+org.kohsuke.github.GHFileNotFoundException: {"message":"Must have push access to view collaborator permission.","documentation_url":"https://developer.github.com/v3/repos/collaborators/#review-a-users-permission-level"}
+	at org.kohsuke.github.Requester.handleApiError(Requester.java:699)
+	at org.kohsuke.github.Requester._to(Requester.java:306)
+	at org.kohsuke.github.Requester.to(Requester.java:247)
+	at org.kohsuke.github.GHRepository.getPermission(GHRepository.java:529)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMSource$1.fetch(GitHubSCMSource.java:903)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMSourceRequest.getPermissions(GitHubSCMSourceRequest.java:474)
+	at org.jenkinsci.plugins.github_branch_source.ForkPullRequestDiscoveryTrait$TrustPermission.checkTrusted(ForkPullRequestDiscoveryTrait.java:340)
+	at org.jenkinsci.plugins.github_branch_source.ForkPullRequestDiscoveryTrait$TrustPermission.checkTrusted(ForkPullRequestDiscoveryTrait.java:323)
+	at jenkins.scm.api.trait.SCMHeadAuthority.isTrusted(SCMHeadAuthority.java:101)
+	at jenkins.scm.api.trait.SCMSourceRequest.isTrusted(SCMSourceRequest.java:215)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMSource$3.create(GitHubSCMSource.java:969)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMSource$3.create(GitHubSCMSource.java:963)
+	at jenkins.scm.api.trait.SCMSourceRequest.process(SCMSourceRequest.java:341)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMSource.retrieve(GitHubSCMSource.java:959)
+	at jenkins.scm.api.SCMSource._retrieve(SCMSource.java:374)
+	at jenkins.scm.api.SCMSource.fetch(SCMSource.java:284)
+	at jenkins.branch.MultiBranchProject.computeChildren(MultiBranchProject.java:634)
+	at com.cloudbees.hudson.plugins.folder.computed.ComputedFolder.updateChildren(ComputedFolder.java:277)
+	at com.cloudbees.hudson.plugins.folder.computed.FolderComputation.run(FolderComputation.java:165)
+	at jenkins.branch.MultiBranchProject$BranchIndexing.run(MultiBranchProject.java:1025)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Caused by: java.io.FileNotFoundException: https://api.github.com/repos/evheniy/react-app/collaborators/jineeshjohn/permission
+	at com.squareup.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:243)
+	at com.squareup.okhttp.internal.huc.DelegatingHttpsURLConnection.getInputStream(DelegatingHttpsURLConnection.java:210)
+	at com.squareup.okhttp.internal.huc.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:25)
+	at org.kohsuke.github.Requester.parse(Requester.java:625)
+	at org.kohsuke.github.Requester.parse(Requester.java:607)
+	at org.kohsuke.github.Requester._to(Requester.java:285)
+	... 20 more
+Finished: FAILURE

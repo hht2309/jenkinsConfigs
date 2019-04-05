@@ -1,0 +1,11 @@
+commit d2839e95059a2fbf3f8ed0f2c1e1fc07db86247a
+tree 914d601491ee93c465f9020c6241f9cc64c85561
+parent 581d28f8b49a404fa1d1467b318e5ebe90827b8e
+author hht2309 <hht2309@gmail.com> 2019-01-03 16:50:34 +0100
+committer hht2309 <hht2309@gmail.com> 2019-01-03 16:50:34 +0100
+
+    add detached option when deploy application
+
+
+
+:100644 100644 499352b4b9aa9d6af458534d4691731bd5bc95d8 ef3ec2abb1ddf1831c7ed369a965149f96c81ec5 M	Jenkinsfile

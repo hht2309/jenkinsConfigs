@@ -1,0 +1,11 @@
+commit 8444ce2dd4f3da848c5f99f3a0eb7f69ef8c0973
+tree 97ae060525afcc8074337654279e24631f90fe74
+parent b9a42760a73e24f5e8c21d7f48dfe59085266520
+author hht2309 <hht2309@gmail.com> 2019-01-02 10:54:50 +0100
+committer hht2309 <hht2309@gmail.com> 2019-01-02 10:54:50 +0100
+
+    add build stage to Jenkinsfile
+
+
+
+:100644 100644 e80d46792eb9eebac1747ce92be5c69bf9519cfd 79cf81c7e89cf7e22e7436516ac80b4f4436f812 M	Jenkinsfile

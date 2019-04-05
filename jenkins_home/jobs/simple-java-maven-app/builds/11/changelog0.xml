@@ -1,0 +1,11 @@
+commit 31567db9b6441c4c767f64a6680969cdcb775082
+tree 004e2c9f8d2767e9ddfc5305dbd80cc15f35627c
+parent e58e964caebae9040ce24d517c29b3580faa5138
+author hht2309 <hht2309@gmail.com> 2019-04-03 14:58:17 +0200
+committer hht2309 <hht2309@gmail.com> 2019-04-03 14:58:17 +0200
+
+    display test result
+
+
+
+:100755 100755 51e8d672b434aa7fb3b3de48e85554827867a469 f783f2f029cb4d723f017cb69b6f2aee0896a828 M	jenkins/Jenkinsfile

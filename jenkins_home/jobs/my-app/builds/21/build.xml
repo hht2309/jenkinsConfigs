@@ -1,0 +1,100 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.31">
+  <actions>
+    <org.jenkinsci.plugins.workflow.cps.replay.ReplayFlowFactoryAction plugin="workflow-cps@2.61">
+      <replacementLoadedScripts/>
+    </org.jenkinsci.plugins.workflow.cps.replay.ReplayFlowFactoryAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>hhh1</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+        <entry>
+          <org.jenkinsci.plugins.workflow.cps.replay.ReplayCause plugin="workflow-cps@2.61">
+            <originalNumber>20</originalNumber>
+          </org.jenkinsci.plugins.workflow.cps.replay.ReplayCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.12">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.61">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.13">
+      <imageIDs>
+        <string>sha256:5435658a63acb615bd9ab5d9249be37de8a1b4e996a6996e26a5127e2a14e79c</string>
+      </imageIDs>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
+    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.17">
+      <names class="sorted-set">
+        <string>maven:3-alpine</string>
+      </names>
+    </org.jenkinsci.plugins.docker.workflow.ImageAction>
+  </actions>
+  <queueId>58</queueId>
+  <timestamp>1551779427597</timestamp>
+  <startTime>1551779427680</startTime>
+  <result>FAILURE</result>
+  <duration>24518</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>node {
+    docker.image(&apos;maven:3-alpine&apos;).inside(&apos;--privileged -v /root/.m2:/root/.m2&apos;) {
+        stage(&apos;Build&apos;) {
+            echo &apos;Build maven project&apos;
+            sh &apos;mvn clean compile&apos;
+        }
+        try {
+            stage(&apos;Test&apos;) {
+                echo &apos;Test &apos;
+                sh &apos;mvn test&apos;
+                currentBuild.result = &apos;SUCCESS&apos;
+            }
+        } catch (Exception e) {
+            currentBuild.result = &apos;FAILURE&apos;
+        } finally {
+                echo &quot;Current build status $currentBuild.result&quot;
+        }
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>977736302</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>1513384430</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>6310240999</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>294691513</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>87354194</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>25</iota>
+    <head>1:25</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

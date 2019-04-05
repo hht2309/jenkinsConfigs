@@ -1,0 +1,9 @@
+Started on Mar 13, 2019 3:28:59 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 722402ffe5695100b43253e48702c477d29b09d6 (refs/remotes/origin/master)
+ > git --version # timeout=10
+ > git ls-remote -h /home/git_repos/my-app # timeout=10
+Found 1 remote heads on /home/git_repos/my-app
+[poll] Latest remote head revision on refs/heads/master is: d51b4a747f080528cd5e494b7277ab317345c082
+Done. Took 10 ms
+Changes found

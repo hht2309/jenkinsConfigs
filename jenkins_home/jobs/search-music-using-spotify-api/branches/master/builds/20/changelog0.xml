@@ -1,0 +1,11 @@
+commit 39ece414f18601982cb6b5a3ac7aa353525aa8d2
+tree 79759b9d3dec09ba64fbfeab419403ee9047d1ee
+parent 85f3b493d78ba936d15206f42ec9c8d6c89fa70e
+author hht2309 <hht2309@gmail.com> 2019-01-03 11:20:18 +0100
+committer hht2309 <hht2309@gmail.com> 2019-01-03 11:20:18 +0100
+
+    add clean up stage
+
+
+
+:100644 100644 89c3f73a358cb098eac35e7bcfe6f63bfc4ba6f8 499352b4b9aa9d6af458534d4691731bd5bc95d8 M	Jenkinsfile

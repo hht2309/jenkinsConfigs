@@ -1,0 +1,31 @@
+Started on Apr 3, 2019 11:45:05 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision cfca83686e0f5f547306399791f3ad30bb9f58c7 (origin/ls, origin/master)
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repositories
+ > git config remote.origin.url /home/git_repos/simple-java-maven-app # timeout=10
+Fetching upstream changes from /home/git_repos/simple-java-maven-app
+ > git --version # timeout=10
+ > git fetch --tags --progress /home/git_repos/simple-java-maven-app +refs/heads/*:refs/remotes/origin/*
+Polling for changes in
+Seen branch in repository origin/ls
+Seen branch in repository origin/master
+Seen 2 remote branches
+ > git show-ref --tags -d # timeout=10
+ > git log --full-history --no-abbrev --format=raw -M -m cfca83686e0f5f547306399791f3ad30bb9f58c7..76ea5d014b8c8eb212fd91e39e5e0c600dfd610b # timeout=10
+Using strategy: Default
+[poll] Last Built Revision: Revision cfca83686e0f5f547306399791f3ad30bb9f58c7 (origin/ls, origin/master)
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repositories
+ > git config remote.origin.url /home/git_repos/simple-java-maven-app # timeout=10
+Fetching upstream changes from /home/git_repos/simple-java-maven-app
+ > git --version # timeout=10
+ > git fetch --tags --progress /home/git_repos/simple-java-maven-app +refs/heads/*:refs/remotes/origin/*
+Polling for changes in
+Seen branch in repository origin/ls
+Seen branch in repository origin/master
+Seen 2 remote branches
+ > git show-ref --tags -d # timeout=10
+ > git log --full-history --no-abbrev --format=raw -M -m cfca83686e0f5f547306399791f3ad30bb9f58c7..76ea5d014b8c8eb212fd91e39e5e0c600dfd610b # timeout=10
+Done. Took 0.5 sec
+Changes found

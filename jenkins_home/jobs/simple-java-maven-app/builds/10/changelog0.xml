@@ -1,0 +1,11 @@
+commit e58e964caebae9040ce24d517c29b3580faa5138
+tree 95e0fac893d61cb0dd708b23b16f95b0aa6b5707
+parent 2e856baaa80f8bbc1f9533bc9f3d3e04e0a40481
+author hht2309 <hht2309@gmail.com> 2019-04-03 14:54:12 +0200
+committer hht2309 <hht2309@gmail.com> 2019-04-03 14:54:12 +0200
+
+    add failed test
+
+
+
+:100644 100755 908bac851aef9be99dcc57a0efb36dc514d4e5ca a292994caa919617c17ede7edf161f43dad8c8dc M	src/test/java/com/mycompany/app/AppTest.java

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-01-02 09:37:11.140 UTC</timestamp>
+  <md5sum>1a1a1aa50fac6cb43fa93551e27788a8</md5sum>
+  <fileName>Credential id=1d53a9fc-d78c-4a0b-abc6-e7911d5c9ba2 name=hht2309@gmail.com/******</fileName>
+  <usages>
+    <entry>
+      <string>search-music-using-spotify-api/master</string>
+      <ranges>1-13,15,17-30</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

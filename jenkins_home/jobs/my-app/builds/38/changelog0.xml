@@ -1,0 +1,11 @@
+commit c78758b4b280454987e05121e1448146021f94f6
+tree 5e1872af2cdab8a5fbb8fcc34dcaef16338b1c8c
+parent 60cd02668a4ad1bc6d8c0612263401a7567979ec
+author hht2309 <hht2309@gmail.com> 2019-03-14 11:45:52 +0100
+committer hht2309 <hht2309@gmail.com> 2019-03-14 11:45:52 +0100
+
+    try trigger jenkins job by commiting
+
+
+
+:100755 100755 bae1c73a1b6959262b17a07e6c735ce23c941bb8 f7d9739eb6c3552d29bbcef04f596e01a171bab2 M	Jenkinsfile

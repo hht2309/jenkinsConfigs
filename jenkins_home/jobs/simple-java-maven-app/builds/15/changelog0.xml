@@ -1,0 +1,11 @@
+commit 4d4e3d0087226bfb98cd550de75cc47d5545850f
+tree 1a552a20803ffef88fd25566357dd8c998dbefad
+parent 3ae4057fcffc714297ad92ab40a7c8e8516a19a3
+author hht2309 <hht2309@gmail.com> 2019-04-03 15:28:58 +0200
+committer hht2309 <hht2309@gmail.com> 2019-04-03 15:28:58 +0200
+
+    Build artifacts in test stage
+
+
+
+:100755 100755 b1e7f1e51d3176bae5610b4528065d7793a3311a a0f6f4e286c992542835f0ccb24fad5048db5de2 M	jenkins/Jenkinsfile

@@ -1,0 +1,12 @@
+commit 9eb1b4ecc0e0c8b34429c5231cb263cfdc92108c
+tree 4bd4459bb19332e5d13afc6aa4b96e7882cf9550
+parent 78f4765e094c6aa4a15fd3ac3d8dda2f99ff693f
+author hht2309 <hht2309@gmail.com> 2019-02-27 16:19:00 +0100
+committer hht2309 <hht2309@gmail.com> 2019-02-27 16:19:00 +0100
+
+    add test stage
+
+
+
+:100755 100755 0caeb8cd353134177990f9c04bbb932faa66baa3 3a6b46dd2a5bf143e16ee7a383cdc791d2517ca3 M	.idea/workspace.xml
+:100755 100755 9ea43ee54188ac792cbaf6fd871d373efc4c510e 8b61a8039e4458acdca58cceea683d670d5dcc39 M	Jenkinsfile

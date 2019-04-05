@@ -1,0 +1,49 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.31">
+  <actions>
+    <org.jenkinsci.plugins.workflow.cps.replay.ReplayFlowFactoryAction plugin="workflow-cps@2.61">
+      <replacementLoadedScripts/>
+    </org.jenkinsci.plugins.workflow.cps.replay.ReplayFlowFactoryAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>hhh1</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+        <entry>
+          <org.jenkinsci.plugins.workflow.cps.replay.ReplayCause plugin="workflow-cps@2.61">
+            <originalNumber>15</originalNumber>
+          </org.jenkinsci.plugins.workflow.cps.replay.ReplayCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.3.0">
+      <sourceId>026c8212-dfa8-467e-b2b5-b1d89dd1de85</sourceId>
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.9.1">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.4.1">
+          <name>master</name>
+        </head>
+        <hash>85f3b493d78ba936d15206f42ec9c8d6c89fa70e</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.3.0">
+      <sourceId>026c8212-dfa8-467e-b2b5-b1d89dd1de85</sourceId>
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.9.1">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" reference="../../../jenkins.scm.api.SCMRevisionAction/revision/head"/>
+        <hash>85f3b493d78ba936d15206f42ec9c8d6c89fa70e</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+  </actions>
+  <queueId>36</queueId>
+  <timestamp>1546509392970</timestamp>
+  <startTime>1546509393007</startTime>
+  <result>FAILURE</result>
+  <duration>1039</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

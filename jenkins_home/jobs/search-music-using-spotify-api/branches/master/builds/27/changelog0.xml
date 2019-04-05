@@ -1,0 +1,11 @@
+commit 581d28f8b49a404fa1d1467b318e5ebe90827b8e
+tree 79759b9d3dec09ba64fbfeab419403ee9047d1ee
+parent 8a0d867047a8f0a3d37a2bcf4e6925ed8eb3d05b
+author hht2309 <hht2309@gmail.com> 2019-01-03 16:40:35 +0100
+committer hht2309 <hht2309@gmail.com> 2019-01-03 16:40:35 +0100
+
+    fixed Jenkinsfile
+
+
+
+:100644 100644 e355ac4df55dd66db63cc6e8ee3e9ecd4591b26f 499352b4b9aa9d6af458534d4691731bd5bc95d8 M	Jenkinsfile

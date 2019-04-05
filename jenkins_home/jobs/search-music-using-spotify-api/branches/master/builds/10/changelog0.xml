@@ -1,0 +1,22 @@
+commit e11f2e10c2e59470d6f3132944159fa279b1c97a
+tree 010f2f804acdc7938a49eecfa340ba151c68b32b
+parent 8771c3b3bf788c1c19a97c8fe4bfc8a3997ba926
+author hht2309 <hht2309@gmail.com> 2019-01-02 15:33:27 +0100
+committer hht2309 <hht2309@gmail.com> 2019-01-02 15:33:27 +0100
+
+    deleted Dockerfile.test
+
+
+
+:100644 000000 56d2b3262c755c3a7210ff2239c467eea809aaa8 0000000000000000000000000000000000000000 D	Dockerfile.test
+commit 8771c3b3bf788c1c19a97c8fe4bfc8a3997ba926
+tree 216316a32da3b97ce217f4cdf970a40c303b1708
+parent 3ead50aa1f511c59b36a4c086f7f9ac528da50c7
+author hht2309 <hht2309@gmail.com> 2019-01-02 15:32:31 +0100
+committer hht2309 <hht2309@gmail.com> 2019-01-02 15:32:31 +0100
+
+    remove command copy package-lock.json (not existed) from Dockerfile
+
+
+
+:100644 100644 bf601c58a4c7d78998e2e908a9fa9de71ac1c595 a61ac445930f635ffbca2f66d643809bec453bec M	Dockerfile

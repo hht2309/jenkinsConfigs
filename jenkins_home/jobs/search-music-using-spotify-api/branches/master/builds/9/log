@@ -1,0 +1,182 @@
+Branch indexing
+[8mha:////4DTUk+FcOh2BwM/bYefX6PL7gcq57KR9e/luDOfMc0IlAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHQG37c7sQAIwKjhjgAAAA==[0mConnecting to https://api.github.com using hht2309@gmail.com/******
+Obtained Jenkinsfile from 3ead50aa1f511c59b36a4c086f7f9ac528da50c7
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4NpqkGIsbM6O8PyJ1bsWMvc+nYaySaXiQusKDOZ0+hMhAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Co/8t2fEDYN3o8CKt8/3oK6tiafHYLZ1RYpAgAqpycvAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/h-music-using-spotify-api_master
+[8mha:////4BPJI/1KX2t94YWuOp7vy2mTY2+SqOzMt+TSmZwX2vENAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4DM73gKyN0dphA0eqSSIrFq/nFo3VQTH8VrbP/UBsV//AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4CpB68ufD1IUnY2ysQ5STZFYhV4erQtb8jWj6f2QBOJFAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Checkout)
+[8mha:////4I/nT4dIkp1hJmgXdwHYSJVqS1dXFx3hYbdzV8DDB4AEAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/hht2309/search-music-on-spotify.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/hht2309/search-music-on-spotify.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --progress https://github.com/hht2309/search-music-on-spotify.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 3ead50aa1f511c59b36a4c086f7f9ac528da50c7 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3ead50aa1f511c59b36a4c086f7f9ac528da50c7
+Commit message: "some changes and added deploy stage to jenkin"
+ > git rev-list --no-walk 8444ce2dd4f3da848c5f99f3a0eb7f69ef8c0973 # timeout=10
+[8mha:////4IwLXEh4QHWQMFC5L7GnNrPIq9p9ynsQCL9s3K+vgywmAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4J04yJmrTwjoKgF7QYapDTrJ7I/yGsWsV+LB73cdTzosAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4PZ0SUPmBKH7+fbs3JAe4DZ2Yytvzt6FGBXG1HGojNsxAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4PBK7O5afEv0J5vTfEfOZ6X2b3TAOGNwiXlfZW7H+/G9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Environment)
+[8mha:////4NcnX6wfH7V4zVSLqgFQW++/kWZjEcgTjaqVWZkiiFNuAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ git --version
+git version 2.18.1
+[8mha:////4ML2omfJhX9x9Ov4DtfgbvqMiRoWyMAvLnZnRSOe0/UxAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] echo
+Branch: master
+[8mha:////4IUCzrYBsUqL9+z8XHy1Yr2+iL0dXM/5D4yXFfMXXLy9AAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/ASOlMWO+AAAA[0m[Pipeline] sh
++ docker -v
+Docker version 18.06.1-ce, build d72f525745
+[8mha:////4HWx96BApMS59Lcg0kuhv+1O5vrUfd98N3sw/tyqpxqXAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyKawcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMPsEddt+au/fYpQqer4AAAA=[0m[Pipeline] sh
++ printenv
+JENKINS_HOME=/var/jenkins_home
+JENKINS_UC_EXPERIMENTAL=https://updates.jenkins.io/experimental
+JAVA_ALPINE_VERSION=8.181.13-r0
+RUN_CHANGES_DISPLAY_URL=http://192.168.56.101:8080/job/search-music-using-spotify-api/job/master/9/display/redirect?page=changes
+HOSTNAME=0f8d396c07e3
+LD_LIBRARY_PATH=/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64
+NODE_LABELS=master
+HUDSON_URL=http://192.168.56.101:8080/
+SHLVL=2
+HOME=/root
+BUILD_URL=http://192.168.56.101:8080/job/search-music-using-spotify-api/job/master/9/
+HUDSON_COOKIE=c2a4171b-db53-4b27-bc13-5ea33b0f9cdd
+JENKINS_SERVER_COOKIE=durable-16d7fbdc8ecb30c22cc6016ac83c0fa2
+JENKINS_UC=https://updates.jenkins.io
+WORKSPACE=/var/jenkins_home/workspace/h-music-using-spotify-api_master
+JAVA_VERSION=8u181
+NODE_NAME=master
+STAGE_NAME=Environment
+EXECUTOR_NUMBER=1
+JENKINS_VERSION=2.150.1
+JENKINS_INCREMENTALS_REPO_MIRROR=https://repo.jenkins-ci.org/incrementals
+BUILD_DISPLAY_NAME=#9
+HUDSON_HOME=/var/jenkins_home
+JOB_BASE_NAME=master
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/jvm/java-1.8-openjdk/jre/bin:/usr/lib/jvm/java-1.8-openjdk/bin
+BUILD_ID=9
+BUILD_TAG=jenkins-search-music-using-spotify-api-master-9
+LANG=C.UTF-8
+JENKINS_URL=http://192.168.56.101:8080/
+JOB_URL=http://192.168.56.101:8080/job/search-music-using-spotify-api/job/master/
+BUILD_NUMBER=9
+JENKINS_NODE_COOKIE=b9107a70-9808-4efa-99ae-608efe76dbe7
+RUN_DISPLAY_URL=http://192.168.56.101:8080/job/search-music-using-spotify-api/job/master/9/display/redirect
+JENKINS_SLAVE_AGENT_PORT=50000
+HUDSON_SERVER_COOKIE=308a53c18a20f6f0
+JOB_DISPLAY_URL=http://192.168.56.101:8080/job/search-music-using-spotify-api/job/master/display/redirect
+JOB_NAME=search-music-using-spotify-api/master
+COPY_REFERENCE_FILE_LOG=/var/jenkins_home/copy_reference_file.log
+JAVA_HOME=/usr/lib/jvm/java-1.8-openjdk
+PWD=/var/jenkins_home/workspace/h-music-using-spotify-api_master
+BRANCH_NAME=master
+[8mha:////4GndfCbeC2Yh/t4Mo3RhC0btup385a3xlQ0IrgH/bfNTAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyaWwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfMnS0t74AAAA=[0m[Pipeline] }
+[8mha:////4NzXxtYQEeOxPU8UiR4roXNou9sxUJHcKsarTO9EL8zBAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BgGX7wu+AAAA[0m[Pipeline] // stage
+[8mha:////4JUlXc3n+vZ9hXdykXTzfxQhJe7LyPUIhIDOAt2o+y/fAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJAokREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lG9tmeb3BAAAA[0m[Pipeline] stage
+[8mha:////4LmQ31nN2tGgPlwsMYA0qUGCyQ91OpJseen285re8ah3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (Build and deploy)
+[8mha:////4E/fJCYARctvVYvzxjHqn17QjlneX4c6sNTrFzB7yPVCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ docker build -t search-music-spotify --no-cache .
+Sending build context to Docker daemon  334.3kB
+Step 1/18 : FROM node:carbon
+ ---> 62ba2b48bf28
+Step 2/18 : RUN apt-get update
+ ---> Running in 7ed68fcb9c2f
+Ign:1 http://deb.debian.org/debian stretch InRelease
+Get:2 http://security.debian.org/debian-security stretch/updates InRelease [94.3 kB]
+Get:3 http://deb.debian.org/debian stretch-updates InRelease [91.0 kB]
+Get:4 http://deb.debian.org/debian stretch Release [118 kB]
+Get:5 http://deb.debian.org/debian stretch Release.gpg [2434 B]
+Get:6 http://security.debian.org/debian-security stretch/updates/main amd64 Packages [464 kB]
+Get:7 http://deb.debian.org/debian stretch-updates/main amd64 Packages [5152 B]
+Get:8 http://deb.debian.org/debian stretch/main amd64 Packages [7089 kB]
+Fetched 7864 kB in 2s (3475 kB/s)
+Reading package lists...
+Removing intermediate container 7ed68fcb9c2f
+ ---> 181a05ac18fa
+Step 3/18 : RUN apt-get upgrade -y
+ ---> Running in ef3cc2a2dc2e
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Removing intermediate container ef3cc2a2dc2e
+ ---> b4b15f7fa80e
+Step 4/18 : RUN apt-get -y install autoconf automake libtool nasm make pkg-config git apt-utils
+ ---> Running in f2f9228833a5
+Reading package lists...
+Building dependency tree...
+Reading state information...
+autoconf is already the newest version (2.69-10).
+automake is already the newest version (1:1.15-6).
+git is already the newest version (1:2.11.0-3+deb9u4).
+libtool is already the newest version (2.4.6-2).
+make is already the newest version (4.1-9.1).
+pkg-config is already the newest version (0.29-4+b1).
+pkg-config set to manually installed.
+The following additional packages will be installed:
+  libapt-inst2.0
+The following NEW packages will be installed:
+  apt-utils libapt-inst2.0 nasm
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2210 kB of archives.
+After this operation, 6460 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian stretch/main amd64 libapt-inst2.0 amd64 1.4.8 [192 kB]
+Get:2 http://deb.debian.org/debian stretch/main amd64 apt-utils amd64 1.4.8 [410 kB]
+Get:3 http://deb.debian.org/debian stretch/main amd64 nasm amd64 2.12.01-1+b1 [1608 kB]
+[91mdebconf: delaying package configuration, since apt-utils is not installed
+[0mFetched 2210 kB in 0s (13.2 MB/s)
+Selecting previously unselected package libapt-inst2.0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29940 files and directories currently installed.)
+Preparing to unpack .../libapt-inst2.0_1.4.8_amd64.deb ...
+Unpacking libapt-inst2.0:amd64 (1.4.8) ...
+Selecting previously unselected package apt-utils.
+Preparing to unpack .../apt-utils_1.4.8_amd64.deb ...
+Unpacking apt-utils (1.4.8) ...
+Selecting previously unselected package nasm.
+Preparing to unpack .../nasm_2.12.01-1+b1_amd64.deb ...
+Unpacking nasm (2.12.01-1+b1) ...
+Setting up libapt-inst2.0:amd64 (1.4.8) ...
+Setting up apt-utils (1.4.8) ...
+Processing triggers for libc-bin (2.24-11+deb9u3) ...
+Setting up nasm (2.12.01-1+b1) ...
+Removing intermediate container f2f9228833a5
+ ---> ed6653bb7ead
+Step 5/18 : RUN mkdir -p /usr/src/app
+ ---> Running in 0685eec9f5e3
+Removing intermediate container 0685eec9f5e3
+ ---> 0db91cda6f3c
+Step 6/18 : WORKDIR /usr/src/app
+ ---> Running in 1a4ac9fd4c44
+Removing intermediate container 1a4ac9fd4c44
+ ---> 23d943c9054b
+Step 7/18 : RUN npm -v
+ ---> Running in d5cf69e2ff5f
+6.4.1
+Removing intermediate container d5cf69e2ff5f
+ ---> 10c38142b8f3
+Step 8/18 : RUN node -v
+ ---> Running in a56a045561c1
+v8.15.0
+Removing intermediate container a56a045561c1
+ ---> 33ab6f680854
+Step 9/18 : COPY package.json /usr/src/app/
+ ---> 9c87488b16ef
+Step 10/18 : COPY package-lock.json /usr/src/app/
+COPY failed: stat /var/snap/docker/common/var-lib-docker/tmp/docker-builder187541326/package-lock.json: no such file or directory
+[8mha:////4AzNCjKQYV4BGPYRtBHCqJFM526zsZYcrMnj1dRNz32FAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPiXWgpW+AAAA[0m[Pipeline] }
+[8mha:////4H4QfCohQrYhldzBYGAfysnwpr/oEcy4u5HlnWxfgrBCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEdlBFkvgAAAA==[0m[Pipeline] // stage
+[8mha:////4LWBTiWqTXtUChadZ65HxZFH2ANzYVK5If8EX3rYEwCKAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb3eCbP8B+yNxE70AAAA=[0m[Pipeline] }
+[8mha:////4JRAjv5yzFE6yJiF+U+UA7cDfmCF6/4XdnZk7wRjAC72AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb/eCbPcBSGo1P70AAAA=[0m[Pipeline] // node
+[8mha:////4F4YqTOOWnc1aB+lX06AfpnoAcn8tfNWtoSOLHQlpxLMAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkJE7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHbnNSdb0AAAA=[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+ERROR: script returned exit code 1
+Finished: FAILURE

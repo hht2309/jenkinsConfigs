@@ -1,0 +1,136 @@
+--- Copying files at Wed Jan  2 09:25:54 UTC 2019
+INSTALLED plugins/pipeline-build-step.jpi : 2.7
+INSTALLED plugins/junit.jpi : 1.26.1
+INSTALLED plugins/credentials.jpi : 2.1.18
+INSTALLED plugins/durable-task.jpi : 1.28
+INSTALLED plugins/github-api.jpi : 1.95
+INSTALLED plugins/github.jpi : 1.29.3
+INSTALLED plugins/workflow-multibranch.jpi : 2.20
+INSTALLED plugins/workflow-scm-step.jpi : 2.7
+INSTALLED plugins/pipeline-model-api.jpi : 1.3.4
+INSTALLED plugins/token-macro.jpi : 2.5
+INSTALLED plugins/mercurial.jpi : 2.4
+INSTALLED plugins/workflow-support.jpi : 2.24
+INSTALLED plugins/pubsub-light.jpi : 1.12
+INSTALLED plugins/pipeline-model-extensions.jpi : 1.3.4
+INSTALLED plugins/blueocean.jpi : 1.9.0
+INSTALLED plugins/branch-api.jpi : 2.1.2
+INSTALLED plugins/github-branch-source.jpi : 2.4.1
+INSTALLED plugins/blueocean-pipeline-editor.jpi : 1.9.0
+INSTALLED plugins/docker-commons.jpi : 1.13
+INSTALLED plugins/blueocean-jwt.jpi : 1.9.0
+INSTALLED plugins/workflow-job.jpi : 2.31
+INSTALLED plugins/workflow-step-api.jpi : 2.17
+INSTALLED plugins/jackson2-api.jpi : 2.9.8
+INSTALLED plugins/blueocean-display-url.jpi : 2.2.0
+INSTALLED plugins/script-security.jpi : 1.49
+INSTALLED plugins/git-server.jpi : 1.7
+INSTALLED plugins/jenkins-design-language.jpi : 1.9.0
+INSTALLED plugins/mailer.jpi : 1.22
+INSTALLED plugins/scm-api.jpi : 2.3.0
+INSTALLED plugins/blueocean-bitbucket-pipeline.jpi : 1.9.0
+INSTALLED plugins/blueocean-rest-impl.jpi : 1.9.0
+INSTALLED plugins/pipeline-stage-step.jpi : 2.3
+INSTALLED plugins/credentials-binding.jpi : 1.17
+INSTALLED plugins/ace-editor.jpi : 1.1
+INSTALLED plugins/handy-uri-templates-2-api.jpi : 2.1.6-1.0
+INSTALLED plugins/blueocean-commons.jpi : 1.9.0
+INSTALLED plugins/pipeline-model-definition.jpi : 1.3.4
+INSTALLED plugins/blueocean-dashboard.jpi : 1.9.0
+INSTALLED plugins/plain-credentials.jpi : 1.5
+INSTALLED plugins/matrix-auth.jpi : 2.3
+INSTALLED plugins/sse-gateway.jpi : 1.16
+INSTALLED plugins/pipeline-graph-analysis.jpi : 1.9
+INSTALLED plugins/workflow-durable-task-step.jpi : 2.27
+INSTALLED plugins/pipeline-stage-tags-metadata.jpi : 1.3.4
+INSTALLED plugins/cloudbees-bitbucket-branch-source.jpi : 2.2.16
+INSTALLED plugins/blueocean-autofavorite.jpi : 1.2.2
+INSTALLED plugins/pipeline-model-declarative-agent.jpi : 1.1.1
+INSTALLED plugins/blueocean-git-pipeline.jpi : 1.9.0
+INSTALLED plugins/favorite.jpi : 2.3.2
+INSTALLED plugins/docker-workflow.jpi : 1.17
+INSTALLED plugins/authentication-tokens.jpi : 1.3
+INSTALLED plugins/workflow-basic-steps.jpi : 2.13
+INSTALLED plugins/pipeline-milestone-step.jpi : 1.3.1
+INSTALLED plugins/display-url-api.jpi : 2.3.0
+INSTALLED plugins/matrix-project.jpi : 1.13
+INSTALLED plugins/git.jpi : 3.9.1
+INSTALLED plugins/blueocean-pipeline-api-impl.jpi : 1.9.0
+INSTALLED plugins/htmlpublisher.jpi : 1.17
+INSTALLED plugins/structs.jpi : 1.17
+INSTALLED plugins/jquery-detached.jpi : 1.2.1
+INSTALLED plugins/jsch.jpi : 0.1.54.2
+INSTALLED plugins/blueocean-i18n.jpi : 1.9.0
+INSTALLED plugins/workflow-cps-global-lib.jpi : 2.12
+INSTALLED plugins/blueocean-rest.jpi : 1.9.0
+INSTALLED plugins/apache-httpcomponents-client-4-api.jpi : 4.5.5-3.0
+INSTALLED plugins/jira.jpi : 3.0.5
+INSTALLED plugins/blueocean-config.jpi : 1.9.0
+INSTALLED plugins/blueocean-pipeline-scm-api.jpi : 1.9.0
+INSTALLED plugins/antisamy-markup-formatter.jpi : 1.5
+INSTALLED plugins/blueocean-github-pipeline.jpi : 1.9.0
+INSTALLED plugins/blueocean-personalization.jpi : 1.9.0
+INSTALLED plugins/pipeline-input-step.jpi : 2.9
+INSTALLED plugins/blueocean-jira.jpi : 1.9.0
+INSTALLED plugins/blueocean-events.jpi : 1.9.0
+INSTALLED plugins/git-client.jpi : 2.7.5
+INSTALLED plugins/workflow-cps.jpi : 2.61
+INSTALLED plugins/variant.jpi : 1.1
+INSTALLED plugins/ssh-credentials.jpi : 1.14
+INSTALLED plugins/workflow-api.jpi : 2.33
+INSTALLED plugins/cloudbees-folder.jpi : 6.7
+INSTALLED plugins/blueocean-core-js.jpi : 1.9.0
+INSTALLED plugins/blueocean-web.jpi : 1.9.0
+INSTALLED init.groovy.d/tcp-slave-agent-port.groovy
+--- Copying files at Wed Jan  2 09:45:25 UTC 2019
+--- Copying files at Wed Jan  2 11:21:56 UTC 2019
+--- Copying files at Thu Jan  3 10:13:56 UTC 2019
+--- Copying files at Thu Jan  3 13:51:57 UTC 2019
+--- Copying files at Thu Jan  3 13:56:27 UTC 2019
+--- Copying files at Fri Jan  4 10:40:17 UTC 2019
+--- Copying files at Fri Jan  4 12:13:49 UTC 2019
+--- Copying files at Fri Jan  4 12:16:01 UTC 2019
+--- Copying files at Fri Jan  4 12:18:21 UTC 2019
+--- Copying files at Sat Jan  5 15:06:31 UTC 2019
+--- Copying files at Mon Jan  7 16:06:02 UTC 2019
+--- Copying files at Mon Jan  7 16:46:56 UTC 2019
+--- Copying files at Tue Jan  8 14:43:05 UTC 2019
+UPGRADED plugins/workflow-support.jpi : Image version (3.0) is newer than installed version (2.24)
+UPGRADED plugins/blueocean.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/blueocean-pipeline-editor.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/blueocean-jwt.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/jenkins-design-language.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/mailer.jpi : Image version (1.23) is newer than installed version (1.22)
+UPGRADED plugins/blueocean-bitbucket-pipeline.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/blueocean-rest-impl.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/blueocean-commons.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/blueocean-dashboard.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/sse-gateway.jpi : Image version (1.17) is newer than installed version (1.16)
+UPGRADED plugins/cloudbees-bitbucket-branch-source.jpi : Image version (2.3.0) is newer than installed version (2.2.16)
+UPGRADED plugins/blueocean-git-pipeline.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/blueocean-pipeline-api-impl.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/blueocean-i18n.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/blueocean-rest.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/blueocean-config.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/blueocean-pipeline-scm-api.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/blueocean-github-pipeline.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/blueocean-personalization.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/blueocean-jira.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/blueocean-events.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/blueocean-core-js.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+UPGRADED plugins/blueocean-web.jpi : Image version (1.10.1) is newer than installed version (1.9.0)
+--- Copying files at Wed Jan 16 08:53:55 UTC 2019
+--- Copying files at Thu Jan 17 13:46:49 UTC 2019
+--- Copying files at Thu Jan 17 14:12:37 UTC 2019
+--- Copying files at Thu Jan 17 14:32:33 UTC 2019
+--- Copying files at Fri Jan 18 09:21:57 UTC 2019
+--- Copying files at Mon Jan 21 08:55:09 UTC 2019
+--- Copying files at Mon Jan 28 09:26:31 UTC 2019
+--- Copying files at Mon Feb  4 15:01:51 UTC 2019
+--- Copying files at Tue Feb 12 14:22:10 UTC 2019
+--- Copying files at Wed Mar 13 13:42:41 UTC 2019
+--- Copying files at Thu Mar 14 10:27:18 UTC 2019
+--- Copying files at Thu Mar 14 11:39:40 UTC 2019
+--- Copying files at Tue Apr  2 12:49:48 UTC 2019
+--- Copying files at Tue Apr  2 14:09:02 UTC 2019
+--- Copying files at Wed Apr  3 07:27:02 UTC 2019

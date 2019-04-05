@@ -1,0 +1,320 @@
+Branch indexing
+[8mha:////4A5T4SReWVYer/Rl12ML1Q44vmJsy9Chce7jVto2naUPAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHQG3wLjWgDhXRFrjgAAAA==[0mConnecting to https://api.github.com using hht2309@gmail.com/******
+Obtained Jenkinsfile from 420570cd2050672e7b14d4894f7b17e7ed454d57
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4NpqkGIsbM6O8PyJ1bsWMvc+nYaySaXiQusKDOZ0+hMhAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Co/8t2fEDYN3o8CKt8/3oK6tiafHYLZ1RYpAgAqpycvAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/react-app_master
+[8mha:////4BPJI/1KX2t94YWuOp7vy2mTY2+SqOzMt+TSmZwX2vENAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4DM73gKyN0dphA0eqSSIrFq/nFo3VQTH8VrbP/UBsV//AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4CpB68ufD1IUnY2ysQ5STZFYhV4erQtb8jWj6f2QBOJFAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Checkout)
+[8mha:////4I/nT4dIkp1hJmgXdwHYSJVqS1dXFx3hYbdzV8DDB4AEAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/evheniy/react-app.git
+ > git init /var/jenkins_home/workspace/react-app_master # timeout=10
+Fetching upstream changes from https://github.com/evheniy/react-app.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --progress https://github.com/evheniy/react-app.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://github.com/evheniy/react-app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://github.com/evheniy/react-app.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/evheniy/react-app.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --progress https://github.com/evheniy/react-app.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 420570cd2050672e7b14d4894f7b17e7ed454d57 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 420570cd2050672e7b14d4894f7b17e7ed454d57
+Commit message: "jenkins"
+First time build. Skipping changelog.
+[8mha:////4IwLXEh4QHWQMFC5L7GnNrPIq9p9ynsQCL9s3K+vgywmAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4J04yJmrTwjoKgF7QYapDTrJ7I/yGsWsV+LB73cdTzosAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4PZ0SUPmBKH7+fbs3JAe4DZ2Yytvzt6FGBXG1HGojNsxAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4PBK7O5afEv0J5vTfEfOZ6X2b3TAOGNwiXlfZW7H+/G9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Environment)
+[8mha:////4NcnX6wfH7V4zVSLqgFQW++/kWZjEcgTjaqVWZkiiFNuAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ git --version
+git version 2.18.1
+[8mha:////4ML2omfJhX9x9Ov4DtfgbvqMiRoWyMAvLnZnRSOe0/UxAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] echo
+Branch: master
+[8mha:////4IUCzrYBsUqL9+z8XHy1Yr2+iL0dXM/5D4yXFfMXXLy9AAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/ASOlMWO+AAAA[0m[Pipeline] sh
++ docker -v
+Docker version 18.06.1-ce, build d72f525745
+[8mha:////4HWx96BApMS59Lcg0kuhv+1O5vrUfd98N3sw/tyqpxqXAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyKawcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMPsEddt+au/fYpQqer4AAAA=[0m[Pipeline] sh
++ printenv
+JENKINS_HOME=/var/jenkins_home
+JENKINS_UC_EXPERIMENTAL=https://updates.jenkins.io/experimental
+JAVA_ALPINE_VERSION=8.181.13-r0
+RUN_CHANGES_DISPLAY_URL=http://192.168.56.101:8080/job/react-app/job/master/1/display/redirect?page=changes
+HOSTNAME=0f8d396c07e3
+LD_LIBRARY_PATH=/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64
+NODE_LABELS=master
+HUDSON_URL=http://192.168.56.101:8080/
+SHLVL=2
+HOME=/root
+BUILD_URL=http://192.168.56.101:8080/job/react-app/job/master/1/
+HUDSON_COOKIE=be925793-702a-4e9d-8707-42ba1122d542
+JENKINS_SERVER_COOKIE=durable-65057ecdd7115475acda1a1690f712cf
+JENKINS_UC=https://updates.jenkins.io
+WORKSPACE=/var/jenkins_home/workspace/react-app_master
+JAVA_VERSION=8u181
+NODE_NAME=master
+STAGE_NAME=Environment
+EXECUTOR_NUMBER=1
+JENKINS_VERSION=2.150.1
+JENKINS_INCREMENTALS_REPO_MIRROR=https://repo.jenkins-ci.org/incrementals
+BUILD_DISPLAY_NAME=#1
+HUDSON_HOME=/var/jenkins_home
+JOB_BASE_NAME=master
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/jvm/java-1.8-openjdk/jre/bin:/usr/lib/jvm/java-1.8-openjdk/bin
+BUILD_ID=1
+BUILD_TAG=jenkins-react-app-master-1
+LANG=C.UTF-8
+JENKINS_URL=http://192.168.56.101:8080/
+JOB_URL=http://192.168.56.101:8080/job/react-app/job/master/
+BUILD_NUMBER=1
+JENKINS_NODE_COOKIE=635e4826-7c92-4ff2-a0d0-5efe8fce455a
+RUN_DISPLAY_URL=http://192.168.56.101:8080/job/react-app/job/master/1/display/redirect
+JENKINS_SLAVE_AGENT_PORT=50000
+HUDSON_SERVER_COOKIE=308a53c18a20f6f0
+JOB_DISPLAY_URL=http://192.168.56.101:8080/job/react-app/job/master/display/redirect
+JOB_NAME=react-app/master
+COPY_REFERENCE_FILE_LOG=/var/jenkins_home/copy_reference_file.log
+JAVA_HOME=/usr/lib/jvm/java-1.8-openjdk
+PWD=/var/jenkins_home/workspace/react-app_master
+BRANCH_NAME=master
+[8mha:////4GndfCbeC2Yh/t4Mo3RhC0btup385a3xlQ0IrgH/bfNTAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyaWwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfMnS0t74AAAA=[0m[Pipeline] }
+[8mha:////4NzXxtYQEeOxPU8UiR4roXNou9sxUJHcKsarTO9EL8zBAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BgGX7wu+AAAA[0m[Pipeline] // stage
+[8mha:////4JUlXc3n+vZ9hXdykXTzfxQhJe7LyPUIhIDOAt2o+y/fAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJAokREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lG9tmeb3BAAAA[0m[Pipeline] stage
+[8mha:////4LmQ31nN2tGgPlwsMYA0qUGCyQ91OpJseen285re8ah3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (Build Docker test)
+[8mha:////4E/fJCYARctvVYvzxjHqn17QjlneX4c6sNTrFzB7yPVCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ docker build -t react-test -f Dockerfile.test --no-cache .
+Sending build context to Docker daemon  1.312MB
+Step 1/14 : FROM node:carbon
+ ---> 62ba2b48bf28
+Step 2/14 : RUN apt-get update
+ ---> Running in 06dd6593735b
+Ign:1 http://deb.debian.org/debian stretch InRelease
+Get:2 http://security.debian.org/debian-security stretch/updates InRelease [94.3 kB]
+Get:3 http://deb.debian.org/debian stretch-updates InRelease [91.0 kB]
+Get:4 http://deb.debian.org/debian stretch Release [118 kB]
+Get:5 http://deb.debian.org/debian stretch Release.gpg [2434 B]
+Get:6 http://security.debian.org/debian-security stretch/updates/main amd64 Packages [464 kB]
+Get:7 http://deb.debian.org/debian stretch-updates/main amd64 Packages [5152 B]
+Get:8 http://deb.debian.org/debian stretch/main amd64 Packages [7089 kB]
+Fetched 7864 kB in 1s (3976 kB/s)
+Reading package lists...
+Removing intermediate container 06dd6593735b
+ ---> 3be15a038c14
+Step 3/14 : RUN apt-get upgrade -y
+ ---> Running in 28fc9e483e74
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Removing intermediate container 28fc9e483e74
+ ---> ae0c1b795b1c
+Step 4/14 : RUN apt-get -y install autoconf automake libtool nasm make pkg-config git apt-utils
+ ---> Running in b865cd296bdc
+Reading package lists...
+Building dependency tree...
+Reading state information...
+autoconf is already the newest version (2.69-10).
+automake is already the newest version (1:1.15-6).
+git is already the newest version (1:2.11.0-3+deb9u4).
+libtool is already the newest version (2.4.6-2).
+make is already the newest version (4.1-9.1).
+pkg-config is already the newest version (0.29-4+b1).
+pkg-config set to manually installed.
+The following additional packages will be installed:
+  libapt-inst2.0
+The following NEW packages will be installed:
+  apt-utils libapt-inst2.0 nasm
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2210 kB of archives.
+After this operation, 6460 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian stretch/main amd64 libapt-inst2.0 amd64 1.4.8 [192 kB]
+Get:2 http://deb.debian.org/debian stretch/main amd64 apt-utils amd64 1.4.8 [410 kB]
+Get:3 http://deb.debian.org/debian stretch/main amd64 nasm amd64 2.12.01-1+b1 [1608 kB]
+[91mdebconf: delaying package configuration, since apt-utils is not installed
+[0mFetched 2210 kB in 0s (8276 kB/s)
+Selecting previously unselected package libapt-inst2.0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29940 files and directories currently installed.)
+Preparing to unpack .../libapt-inst2.0_1.4.8_amd64.deb ...
+Unpacking libapt-inst2.0:amd64 (1.4.8) ...
+Selecting previously unselected package apt-utils.
+Preparing to unpack .../apt-utils_1.4.8_amd64.deb ...
+Unpacking apt-utils (1.4.8) ...
+Selecting previously unselected package nasm.
+Preparing to unpack .../nasm_2.12.01-1+b1_amd64.deb ...
+Unpacking nasm (2.12.01-1+b1) ...
+Setting up libapt-inst2.0:amd64 (1.4.8) ...
+Setting up apt-utils (1.4.8) ...
+Processing triggers for libc-bin (2.24-11+deb9u3) ...
+Setting up nasm (2.12.01-1+b1) ...
+Removing intermediate container b865cd296bdc
+ ---> fa2f639d2cad
+Step 5/14 : RUN mkdir -p /usr/src/app
+ ---> Running in 64753b9fd3bc
+Removing intermediate container 64753b9fd3bc
+ ---> 637a193a25b8
+Step 6/14 : WORKDIR /usr/src/app
+ ---> Running in 9887b472f135
+Removing intermediate container 9887b472f135
+ ---> 2fe291d9826c
+Step 7/14 : RUN npm -v
+ ---> Running in 6121d9ca626c
+6.4.1
+Removing intermediate container 6121d9ca626c
+ ---> 851ede49ca94
+Step 8/14 : RUN node -v
+ ---> Running in f1e869a0ee21
+v8.15.0
+Removing intermediate container f1e869a0ee21
+ ---> b6fbca3795a5
+Step 9/14 : COPY package.json /usr/src/app/
+ ---> dae4313936ac
+Step 10/14 : COPY package-lock.json /usr/src/app/
+ ---> fe54dfa4afd9
+Step 11/14 : RUN npm install
+ ---> Running in 20957f5f03df
+
+> phantomjs-prebuilt@2.1.16 install /usr/src/app/node_modules/phantomjs-prebuilt
+> node install.js
+
+PhantomJS not found on PATH
+Downloading https://github.com/Medium/phantomjs/releases/download/v2.1.1/phantomjs-2.1.1-linux-x86_64.tar.bz2
+Saving to /tmp/phantomjs/phantomjs-2.1.1-linux-x86_64.tar.bz2
+Receiving...
+
+Received 22866K total.
+Extracting tar contents (via spawned process)
+Removing /usr/src/app/node_modules/phantomjs-prebuilt/lib/phantom
+Copying extracted folder /tmp/phantomjs/phantomjs-2.1.1-linux-x86_64.tar.bz2-extract-1546433714952/phantomjs-2.1.1-linux-x86_64 -> /usr/src/app/node_modules/phantomjs-prebuilt/lib/phantom
+Writing location.js file
+Done. Phantomjs binary available at /usr/src/app/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs
+
+> husky@0.14.3 install /usr/src/app/node_modules/husky
+> node ./bin/install.js
+
+husky
+setting up Git hooks
+can't find .git directory, skipping Git hooks installation
+
+> node-sass@4.7.2 install /usr/src/app/node_modules/node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.7.2/linux-x64-57_binding.node
+Download complete
+Binary saved to /usr/src/app/node_modules/node-sass/vendor/linux-x64-57/binding.node
+Caching binary to /root/.npm/node-sass/4.7.2/linux-x64-57_binding.node
+
+> uglifyjs-webpack-plugin@0.4.6 postinstall /usr/src/app/node_modules/uglifyjs-webpack-plugin
+> node lib/post_install.js
+
+
+> cwebp-bin@4.0.0 postinstall /usr/src/app/node_modules/cwebp-bin
+> node lib/install.js
+
+
+> gifsicle@3.0.4 postinstall /usr/src/app/node_modules/gifsicle
+> node lib/install.js
+
+[91m  ✔ cwebp pre-build test passed successfully[0m[91m
+[0m[91m  ✔ gifsicle pre-build test passed successfully[0m[91m
+[0m
+> mozjpeg@5.0.0 postinstall /usr/src/app/node_modules/mozjpeg
+> node lib/install.js
+
+[91m  ✔ mozjpeg pre-build test passed successfully[0m[91m
+[0m
+> optipng-bin@3.1.4 postinstall /usr/src/app/node_modules/optipng-bin
+> node lib/install.js
+
+[91m  ✔ optipng pre-build test passed successfully[0m[91m
+[0m
+> pngquant-bin@3.1.1 postinstall /usr/src/app/node_modules/pngquant-bin
+> node lib/install.js
+
+[91m  ⚠ The `/usr/src/app/node_modules/pngquant-bin/vendor/pngquant` binary doesn't seem to work correctly[0m[91m
+[0m[91m  ⚠ pngquant pre-build test failed[0m[91m
+[0m[91m  ℹ compiling from source[0m[91m
+[0m[91m  ✔ pngquant built successfully[0m[91m
+[0m
+> node-sass@4.7.2 postinstall /usr/src/app/node_modules/node-sass
+> node scripts/build.js
+
+[91m(node:6) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 SIGINT listeners added. Use emitter.setMaxListeners() to increase limit
+[0mBinary found at /usr/src/app/node_modules/node-sass/vendor/linux-x64-57/binding.node
+Testing binary
+Binary is fine
+
+> nodemon@1.15.0 postinstall /usr/src/app/node_modules/nodemon
+> node -e "console.log('\u001b[32mLove nodemon? You can now support the project via the open collective:\u001b[22m\u001b[39m\n > \u001b[96m\u001b[1mhttps://opencollective.com/nodemon/donate\u001b[0m\n')" || exit 0
+
+[32mLove nodemon? You can now support the project via the open collective:[22m[39m
+ > [96m[1mhttps://opencollective.com/nodemon/donate[0m
+
+[91mnpm[0m[91m [0m[91mWARN[0m[91m app@1.0.0 No description
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m app@1.0.0 No repository field.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91moptional[0m[91m SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.3 (node_modules/fsevents):
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mnotsup[0m[91m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m[91m
+[0madded 2192 packages from 1613 contributors and audited 26493 packages in 105.825s
+found 183 vulnerabilities (66 low, 96 moderate, 19 high, 2 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+Removing intermediate container 20957f5f03df
+ ---> c658a92b1045
+Step 12/14 : COPY . /usr/src/app
+ ---> 80e35aacc2a3
+Step 13/14 : ENV NODE_ENV test
+ ---> Running in 010b03d41f68
+Removing intermediate container 010b03d41f68
+ ---> b9ce32682978
+Step 14/14 : CMD [ "npm", "test" ]
+ ---> Running in 152e0f6f190b
+Removing intermediate container 152e0f6f190b
+ ---> 9c0fc34e1f28
+Successfully built 9c0fc34e1f28
+Successfully tagged react-test:latest
+[8mha:////4AzNCjKQYV4BGPYRtBHCqJFM526zsZYcrMnj1dRNz32FAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPiXWgpW+AAAA[0m[Pipeline] }
+[8mha:////4H4QfCohQrYhldzBYGAfysnwpr/oEcy4u5HlnWxfgrBCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEdlBFkvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Gq6mIIvQKy8jfRDaM3oxC0OR95uxoPlN5JGnaTIJVIvAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjAR2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2Gw/x/INhYxW5sEAAAA=[0m[Pipeline] stage
+[8mha:////4JTBL/hfHukVbmNy02fn7hUyf7vBbWYOZZYP2fFQOcEoAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] { (Docker test)
+[8mha:////4D0WgZcl7fafJC/y2v5XxyGQm5TecC89dxMZV60nSolYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN38C26S+AAAA[0m[Pipeline] sh
++ docker run --rm react-test
+
+> app@1.0.0 test /usr/src/app
+> NODE_ENV=test PORT=4000 npm-run-all test:*
+
+
+> app@1.0.0 test:security /usr/src/app
+> nsp check
+
+(+) Client request error: getaddrinfo ENOTFOUND api.nodesecurity.io api.nodesecurity.io:443
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! app@1.0.0 test:security: `nsp check`
+npm ERR! Exit status 2
+npm ERR! 
+npm ERR! Failed at the app@1.0.0 test:security script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-01-02T12_58_58_380Z-debug.log
+ERROR: "test:security" exited with 2.
+npm ERR! Test failed.  See above for more details.
+[8mha:////4GJHtawfKKrCi5qku1ktFc9CoTgrZkIe02GaafBnvKQSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHjyRvdvgAAAA==[0m[Pipeline] }
+[8mha:////4HN04qvgNL6s5GXN36KLyde/CNpbt9DaCxfH3pYiFj+NAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHljyOIvgAAAA==[0m[Pipeline] // stage
+[8mha:////4IR40qVBWox856syS8f7TCU+GbrJpiSOF9Vgv9deBmBRAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREAUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA+oSoWS9AAAA[0m[Pipeline] }
+[8mha:////4MFZrd4qGuWRka0jUbpZNATtJH/A0rdPh9ObNi3cV/uGAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP+a6lx70AAAA=[0m[Pipeline] // node
+[8mha:////4KCwylY1+z2CartZUQrV6dWTb5mfI5nuMCx6edjKeHsJAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny/VaQ7T67L+52vQAAAA==[0m[Pipeline] End of Pipeline
+
+Could not update commit status, please check if your scan credentials belong to a member of the organization or a collaborator of the repository and repo:status scope is selected
+
+
+GitHub has been notified of this commit’s build result
+
+ERROR: script returned exit code 1
+Finished: FAILURE

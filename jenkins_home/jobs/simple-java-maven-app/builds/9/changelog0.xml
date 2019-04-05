@@ -1,0 +1,11 @@
+commit 2e856baaa80f8bbc1f9533bc9f3d3e04e0a40481
+tree 2362a48441e25394dabad3d55f24ac27b54d57b6
+parent 9287d465617811afc819c2728d67b76fa7332839
+author hht2309 <hht2309@gmail.com> 2019-04-03 14:52:41 +0200
+committer hht2309 <hht2309@gmail.com> 2019-04-03 14:52:41 +0200
+
+    this is a stupid when using try without catch or finally
+
+
+
+:100755 100755 ec1b795ca6e667a1566e645cb7c9b09caf512aef 51e8d672b434aa7fb3b3de48e85554827867a469 M	jenkins/Jenkinsfile

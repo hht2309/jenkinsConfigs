@@ -1,0 +1,12 @@
+commit ccb29c0c98a0f550059971476bddb3d1be49038a
+tree 3ca021a11d17a1b5b7cd884aa26077621488d3b8
+parent 4fe037f737e8bf2ab08502b2e6b28900da8fe5fd
+author hht2309 <hht2309@gmail.com> 2019-03-05 10:57:52 +0100
+committer hht2309 <hht2309@gmail.com> 2019-03-05 10:57:52 +0100
+
+    fix test
+
+
+
+:100755 100755 672e16dcc244a61b665e474ab965999e1b6d2ee3 ad178a11543ace4b6f2959317fe1c374eb5e80fc M	.idea/workspace.xml
+:100755 100755 fbef4b43223f005bef221c7db64e28191da9dfb9 faac80ca9f3bb33ffa511ad133f442e3081a9049 M	src/test/java/com/mycompany/app/AppTest.java

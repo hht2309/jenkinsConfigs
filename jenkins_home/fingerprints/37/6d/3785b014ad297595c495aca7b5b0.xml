@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-01-15 13:03:46.860 UTC</timestamp>
+  <original>
+    <name>Pipeline-example</name>
+    <number>17</number>
+  </original>
+  <md5sum>376d3785b014ad297595c495aca7b5b0</md5sum>
+  <fileName>Docker image sha256:376d3785b014ad297595c495aca7b5b0ca8ca6944fb0bfde48247e94204f5264</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.13">
+      <timestamp>1547557426931</timestamp>
+      <imageId>sha256:376d3785b014ad297595c495aca7b5b0ca8ca6944fb0bfde48247e94204f5264</imageId>
+      <usages>
+        <entry>
+          <string>Pipeline-example</string>
+          <ranges>17</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>9eadc9b1b38b</host>
+          <containerId>9eadc9b1b38b6752d636d4f0220310eb3e274526234b97cbe1dda79ac0c02185</containerId>
+          <containerName>/pensive_swirles</containerName>
+          <created>1547557422000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

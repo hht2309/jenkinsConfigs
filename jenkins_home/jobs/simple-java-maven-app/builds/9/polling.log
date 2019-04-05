@@ -1,0 +1,17 @@
+Started on Apr 3, 2019 12:52:42 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 9287d465617811afc819c2728d67b76fa7332839 (origin/master)
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repositories
+ > git config remote.origin.url /home/git_repos/simple-java-maven-app # timeout=10
+Fetching upstream changes from /home/git_repos/simple-java-maven-app
+ > git --version # timeout=10
+ > git fetch --tags --progress /home/git_repos/simple-java-maven-app +refs/heads/*:refs/remotes/origin/*
+Polling for changes in
+Seen branch in repository origin/ls
+Seen branch in repository origin/master
+Seen 2 remote branches
+ > git show-ref --tags -d # timeout=10
+ > git log --full-history --no-abbrev --format=raw -M -m 9287d465617811afc819c2728d67b76fa7332839..2e856baaa80f8bbc1f9533bc9f3d3e04e0a40481 # timeout=10
+Done. Took 57 ms
+Changes found

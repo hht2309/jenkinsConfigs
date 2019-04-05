@@ -1,0 +1,11 @@
+commit 4853b44a2756a9da88fe6aa1ff6f92ab83324e83
+tree ec2d5c4c55c0360c6c679e0fb3dc49db24c038d3
+parent ba0320573f5c0a08405a4f2c4d45c21f9e51a5de
+author hht2309 <hht2309@gmail.com> 2019-04-03 14:38:54 +0200
+committer hht2309 <hht2309@gmail.com> 2019-04-03 14:38:54 +0200
+
+    Add test stage into Jenkinspipeline
+
+
+
+:100755 100755 d8f33662cd9398db80a30680d671a446f08e1159 447807110e13f7b331cd9edadec4805b792b50e2 M	jenkins/Jenkinsfile
